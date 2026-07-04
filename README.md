@@ -1,2 +1,58 @@
-# Exam-Study-Helper-Bot
+# 📚 StudyBuddy — Exam & Study Helper Bot
+
 A rule-based AI chatbot built in Python that helps students stay on track with exams and study tasks — combining study tips, an exam countdown, a persistent to-do list, and a flashcard quiz mode.
+
+## ✨ Features
+
+- **Study tips by subject** — math, physics, chemistry, english, computer science, and general tips
+- **Exam countdown** — tell it your exam date and it calculates the days remaining
+- **Study task list** — add, view, and mark tasks as done; saved to a file so it persists between runs
+- **Flashcard quiz mode** — add your own Q&A flashcards and quiz yourself, with score tracking
+- **Motivational quotes** — for when you need a boost
+- **Name memory** — remembers your name for the session
+
+## 🛠️ Requirements
+
+- Python 3.7+
+- No external libraries required (uses only the standard library)
+
+## ▶️ How to Run
+
+```bash
+python3 studybuddy_bot.py
+```
+
+## 💬 Example Commands
+
+| Command | What it does |
+|---|---|
+| `hello` | Greeting |
+| `my name is Ahmed` | Remembers your name |
+| `tip for math` | Gives a subject-specific study tip |
+| `exam on 2026-08-15` | Tells you how many days are left |
+| `add task revise chapter 3` | Adds a task to your study list |
+| `show tasks` | Lists all your saved tasks |
+| `done 1` | Marks task #1 as complete |
+| `add flashcard What is gravity? \| A force that attracts objects` | Adds a flashcard |
+| `quiz me` | Starts a random flashcard question |
+| `answer: your answer` | Submits your answer to the active flashcard |
+| `quote` | Shows a motivational quote |
+| `help` | Lists all available commands |
+| `quit` | Ends the session and shows your quiz score |
+
+## 📁 Project Structure
+
+```
+studybuddy-exam-helper/
+├── studybuddy_bot.py     # Main chatbot script
+├── study_tasks.json       # Auto-generated task list (ignored in git)
+└── README.md
+```
+
+## 👤 Author
+
+*Nahah Butt*
+
+## 📄 License
+
+This project is for educational purposes.
