@@ -55,4 +55,4 @@ studybuddy-exam-helper/
 
 ## 📄 License
 
-This project is for educational purposes.
+This project is for educational purposes --- First Project of Artificial Intelligence Internship.
