@@ -1,6 +1,7 @@
-# 📚 StudyBuddy — Exam & Study Helper Bot
+# 📚 StudyBuddy Bot
+### A Rule-Based AI Study Assistant in Python
 
-A rule-based AI chatbot built in Python that helps students stay on track with exams and study tasks — combining study tips, an exam countdown, a persistent to-do list, and a flashcard quiz mode.
+StudyBuddy Bot is a rule-based AI chatbot developed in Python as my first Artificial Intelligence Internship project at DecodeLabs. It assists students with study planning through personalized study tips, exam countdowns, task management, and flashcard-based quizzes using a simple command-line interface.
 
 ## ✨ Features
 
@@ -10,6 +11,15 @@ A rule-based AI chatbot built in Python that helps students stay on track with e
 - **Flashcard quiz mode** — add your own Q&A flashcards and quiz yourself, with score tracking
 - **Motivational quotes** — for when you need a boost
 - **Name memory** — remembers your name for the session
+
+ ## 🛠️ Technologies Used
+
+- Python 3
+- Object-Oriented Programming (OOP)
+- JSON
+- Regular Expressions
+- Datetime
+- Random Module
 
 ## 🛠️ Requirements
 
@@ -45,14 +55,35 @@ python3 studybuddy_bot.py
 ```
 studybuddy-exam-helper/
 ├── studybuddy_bot.py     # Main chatbot script
-├── study_tasks.json       # Auto-generated task list (ignored in git)
 └── README.md
 ```
+## 📚 Learning Outcomes
 
-## 👤 Author
+This project helped me practice:
 
-*Nahah Butt*
+- Object-Oriented Programming
+- File Handling
+- JSON Data Storage
+- Rule-Based AI
+- Command-Line Application Development
+- Python Problem Solving
+
+## 🚀 Future Improvements
+
+- GUI using Tkinter
+- Voice Assistant
+- SQLite Database
+- Natural Language Processing (NLP)
+- OpenAI API Integration
+
+## 👩‍💻 Author
+
+**Nahah Butt**
+
+Python Developer Intern @ DecodeLabs
+
+GitHub: https://github.com/NahahButt/
 
 ## 📄 License
 
-This project is for educational purposes --- First Project of Artificial Intelligence Internship.
+This project was developed for educational purposes as the **first project of my Artificial Intelligence Internship at DecodeLabs**.
