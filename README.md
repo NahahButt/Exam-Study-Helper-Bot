@@ -54,7 +54,7 @@ python3 studybuddy_bot.py
 
 ```
 studybuddy-exam-helper/
-├── studybuddy_bot.py     # Main chatbot script
+├── ChatBoot.py
 └── README.md
 ```
 ## 📚 Learning Outcomes
